@@ -73,7 +73,7 @@ body{
 
   
 /******************************/
-/*********MAIN*****************/
+/*********ELEM*****************/
 /******************************/
 
 
@@ -135,6 +135,83 @@ a {
     margin-bottom: 10px;
    
 }
+
+.ch-1 > .img-ap-prew{
+    background-image: url("../img/1.avif");
+}
+.ch-1 > .img-ap-subblock > .img-ap{
+    background-image: url("../img/1.avif");
+}
+
+.ch-1 > .img-ap-subblock > .check > .img-ap-more{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.5)) , url("../img/4.avif");
+} 
+
+
+.ch-2 > .img-ap-prew{
+    background-image: url("../img/5.avif");
+}
+.ch-2 > .img-ap-subblock > .img-ap{
+    background-image: url("../img/5.avif");
+}
+.ch-2 > .img-ap-subblock > .check > .img-ap-more{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.5)) , url("../img/6.avif");
+} 
+
+.ch-3 > .img-ap-prew{
+    background-image: url("../img/7.avif");
+}
+.ch-3 > .img-ap-subblock > .img-ap{
+    background-image: url("../img/7.avif");
+}
+.ch-3 > .img-ap-subblock > .check > .img-ap-more{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.5)) , url("../img/8.avif");
+}
+
+.ch-4 > .img-ap-prew{
+    background-image: url("../img/9.avif");
+}
+.ch-4 > .img-ap-subblock > .img-ap{
+    background-image: url("../img/9.avif");
+}
+.ch-4 > .img-ap-subblock > .check > .img-ap-more{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.5)) , url("../img/10.avif");
+}
+
+.ch-5 > .img-ap-prew{
+    background-image: url("../img/11.avif");
+}
+.ch-5 > .img-ap-subblock > .img-ap{
+    background-image: url("../img/11.avif");
+}
+.ch-5 > .img-ap-subblock > .check > .img-ap-more{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.5)) , url("../img/14.avif");
+}
+
+.ch-6 > .img-ap-prew{
+    background-image: url("../img/13.avif");
+}
+.ch-6 > .img-ap-subblock > .img-ap{
+    background-image: url("../img/13.avif");
+}
+.ch-6 > .img-ap-subblock > .check > .img-ap-more{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.5)) , url("../img/12.avif");
+}
+
+.ch-7 > .img-ap-prew{
+    background-image: url("../img/15.avif");
+}
+.ch-7 > .img-ap-subblock > .img-ap{
+    background-image: url("../img/15.avif");
+}
+.ch-7 > .img-ap-subblock > .check > .img-ap-more{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.5)) , url("../img/16.avif");
+}
+
+
+
+
+
 
 .img-ap-more {
     background-size:cover;
@@ -314,10 +391,23 @@ padding: 10px;
     border-radius: 20px;
     padding: 5px 12px;
     text-align: center;
+    
 }
 .sort-ul > li:nth-last-child(1){
     background: #000;
     color: #fff;
+}
+
+.sort-ul > li:nth-last-child(1):hover{
+    background: #000;
+    color: rgb(255, 255, 255)000;
+}
+
+.sort-ul> li:hover{
+    border: 2px solid #ffffff;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .sort {
